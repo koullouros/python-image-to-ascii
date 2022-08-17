@@ -2,6 +2,7 @@
 A python script to convert images to ascii art.
 
 # Usage:
+The script can be run from the command line as follows:
 ```
 image_to_ascii.py [-h] [--contrast CONTRAST] [-s SCALE] [-c COLUMNS] [-o OUTPUT] input_image
 
@@ -18,6 +19,8 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         The file to store the output in. If not specified, will output to console.
 ```
+
+The script can also be imported, you can use the image_to_ascii function as needed.
 
 # Requirements:
 ```
