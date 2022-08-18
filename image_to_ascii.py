@@ -74,7 +74,7 @@ def main():
 
     args = parser.parse_args()
 
-    image_to_ascii.image_to_ascii(args.input_image, contrast=args.contrast, columns=args.columns,
+    image_to_ascii(args.input_image, contrast=args.contrast, columns=args.columns,
                                   tile_height_scale=args.scale, gray_character_ramp=None, output_file=args.output)
 
 
